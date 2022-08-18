@@ -143,3 +143,13 @@ footer{
     font-size: large;
 
 }
+body{
+    background: linear-gradient(to right, #45b39d, #5f7e78);
+}
+.box5{
+    margin-top: 25%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
