@@ -50,6 +50,7 @@ footer{
     grid-template-rows: 1fr 1fr 1fr;
     gap: 10px;
 }
+
 @keyframes dibujo {
     0% {
         opacity: 0;
@@ -59,16 +60,16 @@ footer{
     }
 }
 .dibujo{
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 400px;
     animation-name: dibujo;
     animation-duration: 3s;
 }
-.dibujo:hover{
+/* .dibujo:hover{
     width: 500px;
     height: 500px;
     transition: all 3s;
-}
+} */
 .ejemploDeComision{
     width: 600px;
     height: 400px;
@@ -144,7 +145,7 @@ footer{
 
 }
 body{
-    background: linear-gradient(to right, #45b39d, #5f7e78);
+    background: linear-gradient(to right, azure,  #FFF);
 }
 .box5{
     margin-top: 25%;
@@ -153,3 +154,14 @@ body{
     flex-direction: column;
     background-color: beige;
 }
+@media (min-width: 1650px) {
+    .dibujo{
+        width: 24.5%;
+        height: 400px;
+        animation-name: dibujo;
+        animation-duration: 3s;
+    }
+}
+    
+
+
